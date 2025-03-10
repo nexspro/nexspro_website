@@ -1,0 +1,81 @@
+# =========================
+# 🔒 Fichiers sensibles
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+config/database.cr
+
+# =========================
+# 🔑 Clés SSH et fichiers privés
+# =========================
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+*.crt
+*.p12
+
+# =========================
+# ⚠️ Logs & erreurs
+# =========================
+log/
+*.log
+*.out
+*.err
+yarn-error.log
+npm-debug.log
+debug.log
+
+# =========================
+# 📦 Dépendances & caches
+# =========================
+node_modules/
+bower_components/
+vendor/
+lib/
+tmp/
+.cache/
+.crystal/
+.shards/
+
+# =========================
+# 🏗️ Fichiers build et générés
+# =========================
+bin/
+bin/*/
+public/assets/
+public/packs/
+public/uploads/
+public/mix-manifest.json
+tmp/public/js
+tmp/cache
+tmp/restart.txt
+tmp/sockets/
+tmp/pids/
+tmp/*.pid
+tmp/*.lock
+
+# =========================
+# 🛠️ Configs locales & systèmes
+# =========================
+*.swp
+*.swo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.bak
+*.old
+
+# =========================
+# 📂 Base de données & migrations
+# =========================
+db/*.sqlite3
+db/*.sqlite3-journal
+db/structure.sql
+db/schema.rb
+db/seeds.rb
+db/migrate/
