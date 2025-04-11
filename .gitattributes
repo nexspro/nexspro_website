@@ -1,0 +1,7 @@
+* text=auto
+*.rb linguist-language=Ruby
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.scss linguist-language=CSS
+*.css linguist-language=CSS
