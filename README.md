@@ -4,11 +4,11 @@ This repository contains the source code of my personal developer website: a cen
 
 ## 🌐 Live Website
 
- [https://nexspro.com](https://nexspro.com) *(coming soon)*
+ [https://nexspro.com](https://nexspro.com) *(hosted on VPS OVH)*
 
 ---
 
-##  Tech Stack
+## 🔧 Tech Stack
 
 ### Backend (API)
 - **Ruby on Rails** (REST API architecture)
@@ -19,11 +19,15 @@ This repository contains the source code of my personal developer website: a cen
 - **Tailwind CSS** (utility-first UI)
 - TypeScript
 
-### Tools & Deployment
+### Infrastructure
+- 🖥️ **Hosted on a self-managed VPS at OVH**
+- Nginx + Passenger / Node.js server
+- Custom Linux server configuration
+- Domain management + SSL setup (Let's Encrypt)
+
+### Tools
 - Git & GitHub
-- Vercel (frontend deployment)
-- Render / Heroku (backend API)
-- GitHub Actions *(CI/CD to be added)*
+- GitHub Actions *(CI/CD in progress)*
 
 ---
 
@@ -45,6 +49,7 @@ This project is a long-term and evolving platform that allows me to:
 - Showcase my code and frontend/back-end skills
 - Centralize my developer identity and presence
 - Experiment with design, performance and UX optimizations
+- Learn and manage my own production server environment
 
 ---
 
@@ -61,7 +66,7 @@ This project is personal and not currently open to contributions, but feel free 
 
 ---
 
-##  Contact
+## 📫 Contact
 
 - LinkedIn: [https://www.linkedin.com/in/nexspro](https://www.linkedin.com/in/nexspro)
 - GitHub: [https://github.com/nexspro](https://github.com/nexspro)
